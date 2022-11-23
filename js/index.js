@@ -68,8 +68,11 @@ function fillInAddress() {
       }
       case "country":
         document.querySelector("#billing_country").value = component.short_name;
-        document.querySelector("#select2-billing_country-container").innerHTML =
-          component.long_name;
+        if (document.querySelector("#select2-billing_country-container")) {
+          document.querySelector(
+            "#select2-billing_country-container"
+          ).innerHTML = component.long_name;
+        }
 
         break;
     }
@@ -139,9 +142,12 @@ function fillInAddress2() {
         document.querySelector("#shipping_country").value =
           component.short_name;
 
-        document.querySelector(
-          "#select2-shipping_country-container"
-        ).innerHTML = component.long_name;
+        if (document.querySelector("#select2-shipping_country-container")) {
+          document.querySelector(
+            "#select2-shipping_country-container"
+          ).innerHTML = component.long_name;
+        }
+
         break;
     }
   }

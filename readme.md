@@ -13,3 +13,11 @@ Plugin settings is found at Settings > Address Autocomplete
 ## Support this Plugin
 
 [Buy me coffee?](https://www.paypal.com/donate/?hosted_button_id=HMVBT83KDMTMY)
+
+## Removed Powered By Google
+
+This may be used to remove the banner but not recommended
+.pac-container:after {
+background-image: none !important;
+height: 0px;
+}
