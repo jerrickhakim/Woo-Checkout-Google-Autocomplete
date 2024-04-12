@@ -4,7 +4,7 @@
  * Plugin Name:       Woo Checkout Address Autocomplete
  * Plugin URI:        https://jhakim.com
  * Description:       Increase converison with Google Address Autocomplete at checkout for billing and shipping address fields.
- * Version:           0.0.1
+ * Version:           1.0.0
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            Jerrick Hakim
@@ -20,6 +20,7 @@
 /**
  *  Class WooCheckoutAddressAutocomplete
  */
+
 
 class WooCheckoutAddressAutocomplete
 {

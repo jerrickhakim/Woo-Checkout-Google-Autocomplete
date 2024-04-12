@@ -1,0 +1,19 @@
+{
+  "name": "woo-checkout-google-autocomplete",
+  "version": "1.0.0",
+  "description": "Increase converison with Google Address Autocomplete at checkout for billing and shipping address fields.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "git push -u origin main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerrickhakim/Woo-Checkout-Google-Autocomplete.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerrickhakim/Woo-Checkout-Google-Autocomplete/issues"
+  },
+  "homepage": "https://github.com/jerrickhakim/Woo-Checkout-Google-Autocomplete#readme"
+}

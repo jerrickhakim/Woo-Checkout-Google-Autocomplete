@@ -34,38 +34,35 @@ function fillInAddress() {
     const componentType = component.types[0];
 
     switch (componentType) {
-      case "street_number": {
+      case "street_number":
         // console.log(component);
         address1 = `${component.long_name} ${address1}`;
 
         break;
-      }
 
-      case "route": {
+      case "route":
         address1 += component.short_name;
         document.getElementById("billing_address_1").value = address1;
         break;
-      }
 
-      case "postal_code": {
+      case "postal_code":
         postcode = `${component.long_name}${postcode}`;
 
         document.querySelector("#billing_postcode").value = postcode;
 
         break;
-      }
 
-      case "postal_code_suffix": {
+      case "postal_code_suffix":
         postcode = `${postcode}-${component.long_name}`;
         break;
-      }
+
       case "locality":
         document.querySelector("#billing_city").value = component.long_name;
         break;
-      case "administrative_area_level_1": {
+      case "administrative_area_level_1":
         document.querySelector("#billing_state").value = component.short_name;
         break;
-      }
+
       case "country":
         document.querySelector("#billing_country").value = component.short_name;
         if (document.querySelector("#select2-billing_country-container")) {
