@@ -21,3 +21,7 @@ This may be used to remove the banner but not recommended
 background-image: none !important;
 height: 0px;
 }
+
+## Note
+
+This plugin hasn't been tested. Contributions are wanted.
